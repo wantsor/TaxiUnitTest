@@ -7,27 +7,27 @@ import org.junit.Test;
 public class AppTest {
 
     @Test
-    public void distance_1_with_6_yuan() {
+    public void distance_1_then_6_yuan() {
         Assert.assertEquals(6, Taxi.calculate(1), 0);
     }
     @Test
-    public void distance_2_with_6_yuan() {
+    public void distance_2_then_6_yuan() {
         Assert.assertEquals(6, Taxi.calculate(2), 0);
     }
     @Test
-    public void distance_3_with_68_yuan() {
+    public void distance_3_then_68_yuan() {
         Assert.assertEquals(6.8, Taxi.calculate(3,0), 0);
     }
     @Test
-    public void distance_8_with_108_yuan() {
+    public void distance_8_then_108_yuan() {
         Assert.assertEquals(10.8, Taxi.calculate(8,0), 0);
     }
     @Test
-    public void distance_9_with_12_yuan() {
+    public void distance_9_then_12_yuan() {
         Assert.assertEquals(12, Taxi.calculate(9,0), 0);
     }
     @Test
-    public void distance_1_wait_1_with_625_yuan() {
+    public void distance_1_wait_1_then_625_yuan() {
         Assert.assertEquals(6.25, Taxi.calculate(1,1), 0);
     }
     @Test
